@@ -2,6 +2,7 @@ import Menu from "@/public/icons/Menu";
 
 import React from "react";
 
+// TODO: REFACTOR CODE
 const NavBar = () => {
   return (
     <div className="fixed flex h-[50px] w-screen justify-center bg-black/30 backdrop-blur-md">

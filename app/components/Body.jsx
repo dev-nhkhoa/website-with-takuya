@@ -11,6 +11,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
+// TODO: REFACTOR CODE
 const Body = () => {
   return (
     <>
