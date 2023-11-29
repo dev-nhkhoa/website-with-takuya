@@ -8,6 +8,7 @@ import {
   WorkSection,
 } from "./sections";
 
+//TODO: Learn & Add Emotion Framer
 const Body = () => {
   return (
     <>
