@@ -18,7 +18,7 @@ const WorkSection = () => {
 const WorkDesc = () => {
   return (
     <p className="py-[20px] text-justify indent-[14px] text-[16px] font-normal">
-      Anh Khoa's a Information Systems Student at{" "}
+      Anh Khoa&apos;s a Information Systems Student at{" "}
       {
         <a
           href={"https://vlu.edu.vn/"}
@@ -28,9 +28,9 @@ const WorkDesc = () => {
           Van Lang University
         </a>
       }
-      . He's currently a secondary years student. He want to be a full-stack
-      developer in the future with a passion for building productivity apps for
-      real life.
+      . He&apos;s currently a secondary years student. He want to be a
+      full-stack developer in the future with a passion for building
+      productivity apps for real life.
     </p>
   );
 };
