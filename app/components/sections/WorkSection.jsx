@@ -9,7 +9,11 @@ const WorkSection = () => {
       <div className="pt-[20px] text-white">
         <SectionTitle title={"Work"} />
         <WorkDesc />
-        <PortfolioBtn />
+        <WorkBtn name={"My Portfolio"} link={"/"} />
+        <WorkBtn
+          name={"My Banking"}
+          link={"https://damocloids-banking-info.vercel.app/"}
+        />
       </div>
     </>
   );
@@ -35,12 +39,12 @@ const WorkDesc = () => {
   );
 };
 
-const PortfolioBtn = () => {
+const WorkBtn = ({ name, link }) => {
   return (
     <div className="flex flex-row justify-center">
-      <Link href={"/"}>
+      <Link href={link}>
         <div className="flex max-w-max gap-x-2 rounded-[8px] bg-[#4FD1C5] px-[18px] py-[10px] text-[#1A202C] hover:bg-[#7ee6db]">
-          <h4>My Portfolio</h4>
+          <h4>{name}</h4>
           <ChevronRight />
         </div>
       </Link>
