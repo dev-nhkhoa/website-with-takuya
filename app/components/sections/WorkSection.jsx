@@ -41,7 +41,7 @@ const WorkDesc = () => {
 
 const WorkBtn = ({ name, link }) => {
   return (
-    <div className="flex flex-row justify-center">
+    <div className="flex flex-row justify-center pt-2">
       <Link href={link}>
         <div className="flex max-w-max gap-x-2 rounded-[8px] bg-[#4FD1C5] px-[18px] py-[10px] text-[#1A202C] hover:bg-[#7ee6db]">
           <h4>{name}</h4>
