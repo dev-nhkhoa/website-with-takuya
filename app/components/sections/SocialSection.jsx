@@ -10,12 +10,12 @@ import SectionTitle from "../ui/SectionTitle";
 
 export const allLinks = {
   github: {
-    name: "@nhkhoaaa",
-    link: "https://github.com/nhkhoaaa",
+    name: "@dev-nhkhoa",
+    link: "https://github.com/dev-nhkhoa",
   },
   instagram: {
-    name: "@nhkhoaaa",
-    link: "https://www.instagram.com/",
+    name: "@nhkhoa.a",
+    link: "https://www.instagram.com/nhkhoa.a/",
   },
   facebook: {
     name: "@Truong Nguyen Anh Khoa",
