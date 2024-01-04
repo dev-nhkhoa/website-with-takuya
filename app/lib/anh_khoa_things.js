@@ -23,12 +23,12 @@ export const ANH_KHOA_INFO = {
   ],
   on_the_web: [
     {
-      name: "@nhkhoaaa",
-      link: "https://github.com/nhkhoaaa",
+      name: "@dev-nhkhoa",
+      link: "https://github.com/dev-nhkhoa",
     },
     {
-      name: "@nhkhoaaa",
-      link: "https://www.instagram.com/",
+      name: "@nhkhoa.a",
+      link: "https://www.instagram.com/nhkhoa.a/",
     },
     {
       name: "@Truong Nguyen Anh Khoa",
